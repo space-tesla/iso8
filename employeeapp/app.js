@@ -34,13 +34,20 @@ app.listen(3000, () => {
 });
 
 
+
+
+
+// REQUIRED SETUP (Run these once if not already done):
+// npm init -y
+// npm install express
+// npm install
+
+
 // HOW TO RUN THIS APPLICATION:
 // Step 1: Open terminal inside this folder
 // Step 2: Run → node app.js
 
-// TEST USING TERMINAL (curl):
-// -----------------------------------
-
+// Open New Terminal and go to file using cd filename 
 // 1) Add Employee
 // curl -X POST -H "Content-Type: application/json" -d '{"id":1,"name":"Gauri","salary":45000}' http://localhost:3000/employees
 
