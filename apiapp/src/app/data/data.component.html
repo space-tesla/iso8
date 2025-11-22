@@ -1,0 +1,10 @@
+<!-- Q.1) Create a simple Angular application that fetches data from an API using HttpClient.
+Implement an Observable to fetch data from an API endpoint. -->
+
+<h3>Fetched User Data</h3>
+
+<div *ngFor="let u of users$ | async" style="margin-bottom:10px;">
+  <b>{{ u.name }}</b><br>
+  {{ u.email }}<br>
+  {{ u.phone }}
+</div>
